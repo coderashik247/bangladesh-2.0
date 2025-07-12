@@ -2,6 +2,7 @@ body {
     width: 80%;
     margin: 0 auto;
     font-family: Fira Sans;
+    background-color: aliceblue;
 }
 
 nav {
@@ -27,7 +28,8 @@ nav {
     padding: 15px 25px;
     border-radius: 8px;
 }
-.sign-in-btn:hover{
+
+.sign-in-btn:hover {
     color: #fff;
     background-color: rgb(0, 106, 80);
     cursor: pointer;
@@ -67,8 +69,49 @@ nav {
     font-weight: 600;
     color: #fff;
 }
-.explore-btn:hover{
+
+.explore-btn:hover {
     background-color: #fff;
     color: rgb(0, 106, 80);
     cursor: pointer;
+}
+.pillars-section{
+    margin: 45px 0;
+}
+
+.pillars-section>h2 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.pillars-container {
+    display: flex;
+    gap: 15px;
+}
+
+.pillars {
+    border: 1px solid red;
+    padding: 25px 25px 0 25px;
+    text-align: justify;
+    background-color: #fff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.pillars:hover {
+    background-color: rgb(198, 228, 214);
+}
+
+.pillars>h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.pillars>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
 }
