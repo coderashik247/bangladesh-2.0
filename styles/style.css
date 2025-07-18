@@ -154,6 +154,10 @@ nav {
     border-radius: 10px;
 }
 
+.Learn-more:hover{
+    cursor: pointer;
+}
+
 .vision-one {
     background-color: #5490F533;
 }
@@ -341,6 +345,7 @@ nav {
     border-radius: 24px;
     background-color: rgb(198, 228, 214);
     padding: 50px 0;
+    margin-top: 25px;
 }
 
 .email {
@@ -373,3 +378,14 @@ nav {
 }
 
 /* Subscribe section end here */
+
+footer{
+    text-align: center;
+    margin: 80px 0;
+}
+hr{
+    width: 90%;
+}
+.image{
+    padding: 20px;
+}
