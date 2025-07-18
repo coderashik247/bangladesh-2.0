@@ -75,11 +75,13 @@ nav {
     color: rgb(0, 106, 80);
     cursor: pointer;
 }
-.pillars-section{
+
+.pillars-section {
     margin: 45px 0;
 }
 
-.pillars-section>h2 {
+.pillars-section>h2,
+.vision-section>h2 {
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
@@ -91,7 +93,6 @@ nav {
 }
 
 .pillars {
-    border: 1px solid red;
     padding: 25px 25px 0 25px;
     text-align: justify;
     background-color: #fff;
@@ -103,15 +104,74 @@ nav {
     background-color: rgb(198, 228, 214);
 }
 
-.pillars>h4 {
+.pillars>h4,
+.vision>h4 {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
 }
 
 
-.pillars>p {
+.pillars>p,
+.vision>p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* vision section styles here */
+.vision-section>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.vision-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.vision {
+    padding: 25px 25px 20px 25px;
+    text-align: justify;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.Learn-more {
+    border: none;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.vision-one {
+    background-color: #5490F533;
+}
+
+.vision-two {
+    background-color: #C6E4D6;
+}
+
+.vision-three {
+    background-color: #F7EBCF;
+}
+
+
+#digital {
+    background-color: #5490F5;
+}
+
+#energy {
+    background-color: #09A15C;
+}
+
+#infrastructure {
+    background-color: #FFC239;
 }
