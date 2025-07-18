@@ -82,7 +82,7 @@ nav {
 
 .pillars-section>h2,
 .vision-section>h2,
-.recent-news-section> h2 {
+.recent-news-section>h2 {
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
@@ -122,7 +122,7 @@ nav {
 
 /* vision section styles here */
 .vision-section>p,
-.recent-news-section> p{
+.recent-news-section>p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
@@ -218,14 +218,14 @@ nav {
     margin-bottom: 20px;
 }
 
-.satellite-container-two{
+.satellite-container-two {
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 48px;
     background-color: #fff;
     border-radius: 16px;
     margin-bottom: 20px;
-    
+
 }
 
 .satellite-title {
@@ -243,11 +243,13 @@ nav {
 .satellite-image>img {
     border-radius: 16px;
 }
-.satellite-image-two{
+
+.satellite-image-two {
     display: flex;
     justify-content: end;
 }
-.satellite-image-two > img{
+
+.satellite-image-two>img {
     border-radius: 16px;
 }
 
@@ -266,10 +268,67 @@ nav {
     text-align: justify;
 }
 
-.read-more{
+.read-more {
     padding: 15px 25px;
     background-color: #09A15C;
 }
 
-
 /* Recent-news end here */
+
+/* Donate Section start here */
+.donate-section {
+    text-align: center;
+}
+
+.donate-section>h2 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-section>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.donate-section>p {
+    padding: 0 200px;
+}
+
+.taka-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 200px;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.taka:hover{
+    background-color: #C6E4D6;
+}
+
+.taka {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    color: rgba(14, 14, 14, 0.8);
+    background-color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.donate-section input {
+    width: 70%;
+    padding: 20px 15px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Donate Section end here */
